@@ -1,0 +1,35 @@
+*{
+    font-size: 20px;
+    font-family: Source Han Sans TW;
+    color: #333;
+    font-weight: bolder;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+table{
+    margin-top: 10%;
+    border-radius: .3em;
+    border: solid .1em #878787;
+    box-shadow: .3em .3em .01em 0 rgb(0 0 0 / 21%);
+    border-spacing: 0px;
+}
+th{
+  border: solid .1em #878787;
+}
+.href{
+    display: flex;
+    font-size: 19px;
+    padding: 1% 1%;
+    text-decoration: none;
+    flex-direction: column;
+}
+img{
+    cursor: pointer;
+}
+img:hover{
+    width: 100.5%;
+}
