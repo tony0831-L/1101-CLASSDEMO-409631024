@@ -1,8 +1,13 @@
 *{
-    font-size: 20px;
+    font-size: 1.3em;
     font-family: Source Han Sans TW;
     color: #333;
     font-weight: bolder;
+    margin: 0px;
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
 }
 body{
     display: flex;
@@ -10,32 +15,21 @@ body{
     justify-content: center;
     align-content: center;
 }
+header{
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+a:hover{
+    font-size: 1.35em;
+}
 .home{
     list-style-type:none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-table{
-    margin-top: 10%;
-    border-radius: .3em;
-    border: solid .1em #878787;
-    box-shadow: .3em .3em .01em 0 rgb(0 0 0 / 21%);
-    border-spacing: 0px;
-}
-th{
-  border: solid .1em #878787;
-}
-.href{
+article{
     display: flex;
-    font-size: 19px;
-    padding: 1% 1%;
-    text-decoration: none;
     flex-direction: column;
-}
-img{
-    cursor: pointer;
-}
-img:hover{
-    width: 100.5%;
+    align-items: center;
 }
