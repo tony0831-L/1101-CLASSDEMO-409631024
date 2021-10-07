@@ -1,7 +1,7 @@
 *{
     font-size: 1.3em;
     font-family: Source Han Sans TW;
-    color: #333;
+    color: rgba(51, 51, 51, 0.897);
     font-weight: bolder;
     margin: 0px;
     text-decoration: none;
@@ -17,19 +17,29 @@ body{
 }
 header{
     font-size: 2em;
-    margin-bottom: .5em;
+    margin-bottom: .2em;
+}
+a{
+    font-family: 'Play', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 a:hover{
     font-size: 1.35em;
 }
 .home{
+    padding: 5%;
     list-style-type:none;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0em 0em .5em 0 rgb(0 0 0 / 21%);
 }
 article{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+p{
+    font-size: .5em;
+    font-family: 'Ephesis', cursive;
 }
