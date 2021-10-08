@@ -1,5 +1,5 @@
 *{
-    font-family: Source Han Sans TW;
+    font-family: open sans,microsoft jhenghei,sans-serif;
     color: #333;
     font-weight: bolder;
     margin: 0px;
@@ -14,9 +14,10 @@ body{
 .card{
     display: flex;
     margin-top: 5%;
+    margin-bottom: 5%;
     width: 80%;
     border-radius: .3em;
-    padding: 2.5%;
+    padding: 1.5% 2.5%;
     box-shadow: 0em 0em 0.2em 0 rgb(0 0 0 / 21%);
     flex-direction: column;
     align-items: center;
@@ -25,6 +26,9 @@ header{
     display: flex;
     align-items: center;
     margin-bottom: .5em;
+}
+hr{
+    box-shadow: 0em .01em 0.1em 0 rgb(0 0 0 / 25%);
 }
 .info{
     font-size: 1.2rem;
@@ -36,9 +40,15 @@ header{
     margin-top: .2em;
     font-size: 1rem;
 }
+.tag{
+    padding: 1% 1%;
+    border-radius: .5em;
+    background: rgba(51, 51, 51, 0.39);
+    color: #fff;
+}
 img{
     border-radius: 100%;
-    width: 5em;
+    width: 6em;
     border: solid .2em #333;
 }
 article{
@@ -60,4 +70,26 @@ article{
 .side{
     display: flex;
     flex-direction: column;
+}
+.project{
+    margin-top: 2%;
+}
+.arti{
+    display: flex;
+    font-size: 1.17em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.arti h2{
+    font-size: 1.2em;
+}
+.arti p{
+    font-size: .8em;
+}
+.arti img{
+    border: none;
+    border-radius: 0%;
+    width: 30%;
+    box-shadow: 0em 0em 0.5em 0 rgb(0 0 0 / 50%);
 }
