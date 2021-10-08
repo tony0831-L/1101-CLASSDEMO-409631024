@@ -96,3 +96,20 @@ article{
 .arti img:hover{
     width: 30.5%;
 }
+@media screen and (max-width: 480px){
+    body{
+        font-size: 10px;
+    }
+    .info,.skills{
+        font-size: 1rem;
+    }
+    .info h1{
+        font-size: 1.25rem;
+    }
+    .tag{
+        font-size: .03rem;
+    }
+    .arti img{
+        width: 15%;
+    }
+}
