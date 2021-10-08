@@ -87,8 +87,12 @@ article{
     font-size: .8em;
 }
 .arti img{
+    cursor: pointer;
     border: none;
     border-radius: 0%;
     width: 30%;
     box-shadow: 0em 0em 0.5em 0 rgb(0 0 0 / 50%);
+}
+.arti img:hover{
+    width: 30.5%;
 }
