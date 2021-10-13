@@ -76,7 +76,6 @@ article{
         background-image: url('./imgs/img2.jpg');
         background-size: cover;
         background-attachment: fixed;
-        opacity: .7;
         background-color: #333;
     }
     .b{
