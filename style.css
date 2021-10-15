@@ -36,6 +36,12 @@ header{
     justify-content: center;
     align-items: center;
     border: solid .3em #707070;
+    cursor: pointer;
+}
+header:hover{
+    width: 25.5em;
+    height: 25.5em;
+    font-size: 1.005em;
 }
 header h1{
     font-size: 8em;
