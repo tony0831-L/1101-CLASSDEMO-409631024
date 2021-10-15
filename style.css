@@ -52,7 +52,7 @@ header h1{
     align-items: center;
     font-size: 3em;
     left: 5em;
-    top: 5em;
+    top: 4em;
 }
 .ld{
     position: absolute;
@@ -61,7 +61,7 @@ header h1{
     align-items: flex-start;
     font-size: 3em;
     left: 5em;
-    top: 10em;
+    top: 9em;
 }
 .rt{
     position: absolute;
@@ -70,7 +70,7 @@ header h1{
     align-items:flex-end;
     font-size: 3em;
     right: 5em;
-    top: 5em;
+    top: 4em;
 }
 .rd{
     position: absolute;
@@ -111,13 +111,13 @@ a:hover{
         right: 1em;
     }
     .lt,.rt{
-        top: 10em;
+        top: 9em;
     }
     .ld{
-        top: 15em;
+        top: 14em;
     }
     .rd{
-        top: 17em;
+        top: 16em;
     }
     .rt a,.rd p,.rt h2,.rd h2,.rd a{
         color: #707070;

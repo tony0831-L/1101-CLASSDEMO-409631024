@@ -12,7 +12,7 @@ body,html{
     flex-direction: column;
 }
 header{
-    background-image: url('./imgs/banner.jpg');
+    background-image: url('../imgs/banner.jpg');
     background-size:contain;
     padding: 5% 5%;
     display: flex;
@@ -73,13 +73,13 @@ article{
         cursor: pointer;
     }
     .a{
-        background-image: url('./imgs/img2.jpg');
+        background-image: url('../imgs/img2.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-color: #333;
     }
     .b{
-        background-image: url('./imgs/img3.jpg');
+        background-image: url('../imgs/img3.jpg');
         background-size: cover;
         background-attachment: fixed;
         color: #333;
