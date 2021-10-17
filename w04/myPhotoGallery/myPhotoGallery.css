@@ -219,19 +219,19 @@ body,html{
         }
     .subtitle{
         line-height: 3em;
-        top: 8em;
-        left: 3em;
-        font-size: 30px;
+        top: 14em;
+        left: 4em;
+        font-size: 20px;
     }
     .logo{
         top: 2.25em;
-        left: 4em;
+        left: 3.43em;
         font-size: 110px;
     }
     header img{
         width: 45%;
         height: 340px;
-        right: 5.2em;
+        right: 2em;
     }
 
     .wrapper{
