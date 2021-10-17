@@ -96,11 +96,11 @@ body,html{
 .title{
     display: flex;
     align-items: center;
-    font-size: 40px;
-    font-family: SimSun;
+    font-size: 30px;
 }
 .title h2{
     font-size: 60px;
+    font-family: SimSun;
     font-weight:400;
 }
 .wrapper{
