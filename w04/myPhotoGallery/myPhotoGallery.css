@@ -114,6 +114,7 @@ body,html{
     justify-content: center;
     animation-name: imgfadein ;
     animation-duration: 1s;
+    box-shadow: 0px 0px .7em .1em rgba(51, 51, 51, 0.2);
 }
     .topWrapper{
         display: flex;
@@ -139,6 +140,11 @@ body,html{
         opacity: 0.4;
         animation-name: imgfadein ;
         animation-duration: 2.5s;
+    }
+    .topWrapper img:hover{
+        transition: all .25s;
+        width: 610px;
+        cursor: pointer;
     }
     .pbanner{
         position: absolute;
@@ -244,6 +250,9 @@ body,html{
             width: 500px;
             opacity: 0.4;
         }
+        .topWrapper img:hover{
+            width: 510px;
+        }
         .pbanner{
             width: 200px;
             font-size: 27px;
@@ -259,5 +268,110 @@ body,html{
             margin-left: -1em;
             margin-top: 7em;
             height: 140px;
+        }
+}
+
+@media screen and (max-width: 480px){
+    .back{
+        height: 200px;
+    }
+    .toptitle{
+        font-size: 20px;
+        top: 7em;
+        left: 12.5em;
+        justify-content: center;
+    }
+        .circle{
+            width: 80px;
+            height: 80px;
+            left: -8.7em;
+            top: -7em;
+        }
+    .subtitle{
+        line-height: 3em;
+        top: 10em;
+        left: 9em;
+        font-size: 10px;
+    }
+    .bar{
+        height: 40px;
+        top: -1.25em;
+    }
+    .logo{
+        top: 1.75em;
+        left: 4.3em;
+        font-size: 40px;
+    }
+    header img{
+        top: 2.25em;
+        right: 8em;
+        width: 41%;
+        height: 129px;
+    }
+
+
+    .intro{
+        margin-top: 24em;
+        font-size: 10px;
+        margin-bottom: 4em;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .title h2{
+        font-size: 25px;
+    }
+
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0px;
+    }
+        .bottomWrapper{
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            font-size: .2px;
+        }
+        .text{
+            font-size: 10px;
+            font-weight: 900;
+            line-height: 2.7em;  
+        }
+        .topWrapper{
+            display: flex;
+        }
+        .text{
+            position: absolute;
+            writing-mode: horizontal-tb;
+            background-color: #333;
+            color: #fff;
+            padding: 2% 2%;
+            margin-top: 23em;
+            margin-left: 13em;
+            box-shadow: .3em .3em .2em .3em rgba(51, 51, 51, 0.2);
+        }
+        .topWrapper img{
+            border-radius: .3em;
+            margin-bottom: .5em;
+            border: inset .2em #333;
+            width: 150px;
+            opacity: 0.4;
+        }
+        .topWrapper img:hover{
+            width: 150px;
+        }
+        .pbanner{
+            display: none;
+        }
+        .pbannerLeft{
+            width: 50px;
+            font-size: 10px;
+            margin-left: -1em;
+            margin-top: 7em;
+            height: 140px;
+            display: none;
         }
 }
