@@ -1,6 +1,5 @@
 *{
     margin: 0px;
-    font-family: open sans,microsoft jhenghei,sans-serif;
 }
 body,html{
     width: 100%;
@@ -8,87 +7,257 @@ body,html{
 }
 #app{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-}
-header{
-    background-image: url(../imgs/banner2.png);
-    background-size: cover;
-    background-color: #878787;
-    padding: 5% 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    height: 100%;
     align-items: center;
-    line-height: 3em;
-    color: rgba(255, 255, 255,1);
-}
-    header h1{
-        font-size: 5em;
-        margin-bottom: .5em;
-    }
-    header h2{
-        font-size: 3em;
-        font-family: 'Stick', sans-serif;
-        color: rgba(255, 255, 255, 0.8);
-    }
-.info{
-    margin-left: 3em;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    writing-mode: vertical-lr;
-    font-family: 'Stick', sans-serif;
-    color: rgba(255, 255, 255, 0.6);
-}
-.intro{
-    padding: 2% 2%;
-    display: flex;
-    justify-content: center;
-    font-size: 2em;
-    color: #000;
-    font-family: Source Han Sans TW;
-    font-size: 1.5em;
-}
-    .intro h2{
-        font-size: 1.25em;
-        text-align: center;
-    }
-article{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3% 3%;
+    font-family: SimSun;
     color: #333;
 }
-.wraper{
+    .back{
+        background-color: #FFFDF8;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 600px;
+    }
+    .toptitle{
+        display: flex;
+        align-items: center;
+        font-size: 60px;
+        position: absolute;
+        top: 1em;
+        left: 5em;
+        justify-content: center;
+        animation-name: fadein ;
+        animation-duration: 1s;
+    }
+        .circle{
+            width: 200px;
+            height: 200px;
+            background-color: #f9e0e0;
+            border-radius: 99%;
+            opacity: 0.4;
+            left: -1em;
+            position: absolute;
+        }
+    .subtitle{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        line-height: 3em;
+        top: 11em;
+        left: 10em;
+        font-size: 30px;
+        font-family: Source HanSerif TC;
+        animation-name: fadein ;
+        animation-duration: 1s;
+    }
+    .logo{
+        position: absolute;
+        top: 2.25em;
+        left: 8em;
+        font-size: 110px;
+        writing-mode: vertical-lr;
+        animation-name: fadein ;
+        animation-duration: 2.5s;
+    }
+    .bar{
+        position: absolute;
+        width: 3px;
+        height: 200px;
+        top: -1.8em;
+        left: .55em;
+        background-image: url(../imgs/bar.svg);
+        background-size: cover;
+    }
+    header img{
+        width: 32%;
+        height: 383px;
+        opacity: 0.4;
+        position: absolute;
+        top: 11em;
+        right: 8em;
+        animation-name: imgfadein ;
+        animation-duration: 1s;
+    }
+.intro{
+    margin-top: 22em;
     display: flex;
-    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 1% 1%;
+    font-size: 30px;
+    margin-bottom: 2em;
+    font-family: Source HanSerif TC;
+    animation-name: fadein ;
+    animation-duration: 2.5s;
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: SimSun;
+}
+.title h2{
+    font-size: 60px;
+    font-weight:400;
+}
+.wrapper{
+    background-color: #FFFCFC;
+    width: 1200px;
+    padding: 5% 3%;
+    margin-bottom: 7em;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5%;
-    background-color: #fcfcfc;
-    padding: 4% 4%;
+    animation-name: imgfadein ;
+    animation-duration: 1s;
 }
-    .wraper img{
-        border: solid .3em #878787;
-        border-radius: .3em;
-        width: 30em;
-        background-attachment: fixed;
-        box-shadow: 0px 0px .7em 1em rgba(51, 51, 51, 0.2);
-        cursor: pointer;
-        transition: all .3s;
+    .topWrapper{
+        display: flex;
     }
-    .wraper img:hover{
-        width: 30.5em;
-        box-shadow: 0px 0px .7em 1em rgba(51, 51, 51, 0.4);
+    .bottomWrapper{
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        font-family: Source Han Sans TW;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 2em;
     }
-    .wraper p{
-        font-size: 1.3em;
+    .text{
+        writing-mode: vertical-lr;
+        font-family: Source Han Sans TW;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 2.7em;  
     }
-footer{
-    background-color: #878787;
-    padding: 1% 1%;
-    color: #fff;
-    font-size: .7em;
+    .topWrapper img{
+        width: 600px;
+        opacity: 0.4;
+        animation-name: imgfadein ;
+        animation-duration: 2.5s;
+    }
+    .pbanner{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 255px;
+        background-color: #333;
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: 20em;
+        margin-top: 4.5em;
+        height: 171px;
+        font-family: Source Han Sans TW;
+        color: #fff;
+        align-items: flex-start;
+        padding: 0% 1%;
+        justify-content: center;
+    }
+    .pbannerLeft{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 255px;
+        background-color: #333;
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: -2em;
+        margin-top: 7.2em;
+        height: 171px;
+        font-family: Source Han Sans TW;
+        color: #fff;
+        align-items: flex-start;
+        padding: 0% 1%;
+        justify-content: center;
+    }
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes imgfadein {
+    from {
+        opacity: 0;
+        
+    }
+
+    to {
+        opacity: .4;
+    }
+}
+
+
+
+@media screen and (max-width: 1700px){
+    .toptitle{
+        font-size: 60px;
+        top: 1em;
+        left: 1.5em;
+        justify-content: center;
+    }
+        .circle{
+            width: 200px;
+            height: 200px;
+            left: -1em;
+        }
+    .subtitle{
+        line-height: 3em;
+        top: 8em;
+        left: 3em;
+        font-size: 30px;
+    }
+    .logo{
+        top: 2.25em;
+        left: 4em;
+        font-size: 110px;
+    }
+    header img{
+        width: 45%;
+        height: 340px;
+        right: 5.2em;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+        .bottomWrapper{
+            width: 95%;
+            font-size: 17px;
+        }
+        .text{
+            font-size: 27px;
+            font-weight: 900;
+            line-height: 2.7em;  
+        }
+        .topWrapper img{
+            width: 500px;
+            opacity: 0.4;
+        }
+        .pbanner{
+            width: 200px;
+            font-size: 27px;
+            font-weight: 900;
+            margin-left: 20em;
+            margin-top: 5em;
+            height: 140px;
+        }
+        .pbannerLeft{
+            width: 200px;
+            font-size: 27px;
+            font-weight: 900;
+            margin-left: -1em;
+            margin-top: 7em;
+            height: 140px;
+        }
 }
