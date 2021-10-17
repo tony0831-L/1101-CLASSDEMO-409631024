@@ -106,6 +106,10 @@ a:hover{
         height: 10em;
         text-align: center;
     }
+    header:hover{
+        width: 12em;
+        height: 12em;
+    }
     .lt,.ld,.rt,.rd{
         font-size: 2em;
         color: #707070;
