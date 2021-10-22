@@ -2,7 +2,7 @@
 
 ## 使用Vue3之Cdn完成之Spa,分為部分與完整展示
 
-![](https://i.imgur.com/gGxcO8u.png)
+![](https://i.imgur.com/EfVVJLL.png)
 
 
 
