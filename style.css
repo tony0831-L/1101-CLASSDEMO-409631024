@@ -111,3 +111,20 @@ body{
     border-radius: .3em;
     padding: .4% .4%;
 }
+
+@media screen and (max-width: 1700px){
+    .bottom{
+        margin-top: 12rem;
+    }
+    .wrapper-header h1{
+        font-size: 5rem;
+    }
+    .wrapper-header a,.bottom a{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 1300px){
+    .bottom{
+        margin-top: 8rem;
+    }
+}
