@@ -13,7 +13,7 @@
 
 
 # [2.MyPhotoGallery.html:](https://tony0831-l.github.io/1101-CLASSDEMO-409631024/w04/myPhotoGallery/myPhotoGallery.html)
-## 頁面過常因此以左右分之
+## 頁面過長因此以左右分之
 
 ![](https://i.imgur.com/EzMDbqw.png)
 
