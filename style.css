@@ -1,135 +1,113 @@
 *{
     margin: 0px;
-    color: #707070;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    transition: all .3s;
+    padding: 0px;
+    font-family: Source Han Sans TW;
+    color: #333;
+    transition: all .1s;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #fcfcfc;
+}
+#app{
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.app{
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center
-}
-.back{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-size: cover;
-    background-image: url(./back.svg);
-}
-header{
-    background-color: #878787;
-    display: flex;
-    border-radius: 99%;
-    width: 25em;
-    height: 25em;
-    justify-content: center;
-    align-items: center;
-    border: solid .3em #707070;
-    cursor: pointer;
-}
-header:hover{
-    width: 25.5em;
-    height: 25.5em;
-    font-size: 1.005em;
-}
-header h1{
-    font-size: 8em;
-    color: #333;
-}
-.app h2{
-    font-size: 1.5em;
-    font-weight: 800;
-
-}
-.lt{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    font-size: 3em;
-    left: 5em;
-    top: 4em;
-}
-.ld{
-    position: absolute;
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    font-size: 3em;
-    left: 5em;
-    top: 9em;
-}
-.rt{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end;
-    font-size: 3em;
-    right: 5em;
-    top: 4em;
-}
-.rd{
-    position: absolute;
-    display: flex;
     align-items: center;
-    font-size: 3em;
-    right: 5em;
-    top: 12em;
-    cursor: pointer;
 }
-.rt a,.rd p,.rt h2,.rd h2,.rd a{
-    color: #fff;
-}
-.ch{
-    font-family: Source Han Sans TW;
-}
-a:hover{
-    font-size: 1.05em;
-}
-
-@media screen and (max-width: 1700px){
-    .back{
-        display: none;
-    }
     header{
-        width: 10em;
-        height: 10em;
+        width: 100%;
+        height: 100%;
+        background-image: url(./back.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .wrapper-header{
+        padding: 2% 5%;
+    }
+    .top,.bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .wrapper-header h1{
+        font-size: 7.75rem;
+    }
+    .wrapper-header a,.bottom a{
+        font-size: 5rem;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .bottom{
+        margin-top: 15rem;
+    }
+    .state{
+        width: 70%;
+        text-align: center;
+        font-size: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        border-bottom: solid .18rem #333;
+        padding: 2% 2%;
+    }
+    article{
         text-align: center;
     }
-    header:hover{
-        width: 12em;
-        height: 12em;
-    }
-    .lt,.ld,.rt,.rd{
-        font-size: 2em;
-        color: #707070;
-    }
-    .lt,.ld{
-        left: 1em;
-    }
-    .rt,.rd{
-        right: 1em;
-    }
-    .lt,.rt{
-        top: 8em;
-    }
-    .ld{
-        top: 13em;
-    }
-    .rd{
-        top: 15em;
-    }
-    .rt a,.rd p,.rt h2,.rd h2,.rd a{
-        color: #707070;
-    }
+        article i{
+            cursor: pointer;
+            font-size: 4rem;
+            margin-top: -4rem;
+        }
+        .card{
+            text-align: left;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 3rem;
+            margin-bottom: 15%;
+            padding: 5% 5%;
+            border-radius: .3em;
+            box-shadow: 0em 0em .2em .2em rgba(51, 51, 51, 0.2);
+        }
+        .card img{
+            transition: all .25s;
+            width: 400px;
+            margin-right: 3rem;
+            cursor: pointer;
+            opacity: .7;
+            border-radius: .3em;
+            box-shadow: 0em 0em .2em .3em rgba(51, 51, 51, 0.4);
+        }
+        .card img:hover{
+            opacity: 1;
+            width: 420px;
+        }
+        .card .num{
+            font-size: 1rem;
+        }
+        .card .title{
+            font-size: 2.75rem;
+        }
+        .card .subtitle{
+            font-size: 2rem;
+        }
+            .info a{
+                font-size: 2rem;
+                text-decoration: none;
+            }
+            .info i{
+                font-size: 2rem;
+                text-decoration: none;
+            }
+
+.active{
+    color: #fff;
+    background-color: #333;
+    border-radius: .3em;
+    padding: .4% .4%;
 }
