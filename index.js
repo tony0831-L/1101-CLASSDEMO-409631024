@@ -34,7 +34,7 @@ Vue.createApp({
                             title:"微軟商城",
                             subtitle:"W04 - 課堂實作",
                             img:'./img/5.png',
-                            href:"https://tony0831-l.github.io/1101-CLASSDEMO-409631024/w04/blog/blog.html"
+                            href:"https://tony0831-l.github.io/1101-CLASSDEMO-409631024/w06/index.html"
                         },
                     ],
                 },
