@@ -80,6 +80,7 @@ html,body{
     display: flex;
     font-size: 1.15rem;
     line-height: 1.5rem;
+    font-weight: 700;
 }
     .item{
         padding: 1% 1%;
