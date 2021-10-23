@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div class="nav">
+            <div class="nav left">
+                <img src="./img/logo.png" alt="logo">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">Office</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">Windows</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">Surface</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">Xbox</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">Deals</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">Support</a>
+            </div>
+            <div class="nav right">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-cart-fill"></i>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="wrapper">
+                <h1>Surface Delas</h1>
+                <h2>Select Surface are on sale now -- save while supplies last</h2>
+                <button><span>Shop Now ></span></button>
+            </div>
+        </div>
+        <div class="list">
+            <div class="item" v-for="(i,index) in top" :key="index">
+                <img :src="i.img" alt="">
+                <h2>{{i.title}}</h2>
+                <p>{{i.info}}</p>
+                <a href="#">LEARN MORE ></a>
+            </div>
+        </div>
+        <div class="ad top">
+            <div class="info">
+                <h2>Xbox Game Pass Ultimate</h2>
+                <p>
+                    <p>Xbox Game Pass Ultimate Xbox Live Gold and over 100</p>
+                    <p>high-qualty console and PC games.Play together with</p>
+                    <p>friends and discover your favorite game.</p>
+                </p>
+                <button><span>Join Now ></span></button>
+            </div>
+        </div>
+        <div class="list">
+            <div class="item" v-for="(i,index) in bottom" :key="index">
+                <img :src="i.img" alt="">
+                <h2>{{i.title}}</h2>
+                <p>{{i.info}}</p>
+                <a href="#">LEARN MORE ></a>
+            </div>
+        </div>
+        <div class="ad bottom">
+            <div class="b info">
+                <h2>Comming To Carbon Negative</h2>
+                <p>
+                    <p>Microsoft will be Carbon Negative by 2020 and by 2050 we will remove all carbon</p>
+                    <p>high-qualty console and PC games.Play together with</p>
+                    <p>friends and discover your favorite game.</p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
